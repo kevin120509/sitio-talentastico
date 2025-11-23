@@ -40,7 +40,12 @@ body {
     background-color: var(--color-white);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-heading);
     color: var(--color-primary);
     font-weight: 600;
@@ -165,7 +170,8 @@ nav a.active::after {
     align-items: center;
     text-align: center;
     color: var(--color-white);
-    padding-top: 80px; /* Header height */
+    padding-top: 80px;
+    /* Header height */
     position: relative;
     overflow: hidden;
 }
@@ -430,7 +436,7 @@ footer {
         align-items: center;
         justify-content: center;
         transition: var(--transition);
-        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     }
 
     nav ul.active {
@@ -444,7 +450,7 @@ footer {
     .section-title h2 {
         font-size: 2rem;
     }
-    
+
     .services-grid {
         grid-template-columns: 1fr;
     }
